@@ -114,6 +114,11 @@ CSRF_TRUSTED_ORIGINS = [
     "http://localhost:5173",
 ]
 
+
+MEDIA_URL = "/media/"
+MEDIA_ROOT = BASE_DIR / "media"
+
+
 SESSION_COOKIE_SAMESITE = "Lax"
 CSRF_COOKIE_SAMESITE = "Lax"
 
